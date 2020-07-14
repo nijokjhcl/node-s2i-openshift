@@ -52,7 +52,7 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Nijo K J",
+        "name": "Patient 1",
         "age": 38,
         "gender": "male",
         "street": "34 Main Street",
